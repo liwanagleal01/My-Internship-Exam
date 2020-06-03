@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:paddingTop="50dp"
+    tools:context=".TrackInfo">
+
+    <ImageView
+        android:id="@+id/ivThumbnail"
+        android:layout_width="100pt"
+        android:layout_height="100pt"
+        android:layout_margin="20pt"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/music" />
+
+    <TextView
+        android:id="@+id/tvTrackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTrackGenre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tvDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10pt"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a maximus felis. In hendrerit porttitor risus volutpat lobortis. Pellentesque faucibus orci at diam vestibulum, nec euismod ex pulvinar. Fusce pulvinar iaculis felis in venenatis. Phasellus consequat, quam in tempus molestie, elit sapien aliquam diam, facilisis consequat mi velit vel nisl. Curabitur pretium tellus a felis finibus varius. Fusce ac rutrum leo. Nullam eget nunc enim. Etiam bibendum rhoncus tellus." />
+
+</LinearLayout>
